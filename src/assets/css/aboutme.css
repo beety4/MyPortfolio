@@ -1,0 +1,28 @@
+#aboutme {
+    width: 70%;
+}
+
+
+.info-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4rem 5rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    min-width: 4rem;
+}
+
+.info-item img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: contain;
+}
+

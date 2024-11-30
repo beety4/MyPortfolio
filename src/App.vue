@@ -1,11 +1,14 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+import Header from './components/Header.vue'
+import MyPortfolio from './components/MyPortfolio.vue'
+import Footer from './components/Footer.vue'
 </script>
 
 <template>
-  <h1>Hello World!</h1>
+  <Header />
+  <MyPortfolio />
+  <Footer />
 </template>
 
-<style>
+<style scoped>
 </style>
